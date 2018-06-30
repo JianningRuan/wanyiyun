@@ -1,3 +1,5 @@
+.w-banner { width: 100%; height: 207px; background: url(../images/WeChat/w-banner.jpg) center center no-repeat; border-bottom: 5px solid #249bee;}
+
 #select_box {
         width: 1006px;
         margin: 20px auto 30px auto;
@@ -180,13 +182,13 @@
         cursor: pointer;
         background-repeat: no-repeat;
         background-position: center left;
-        background-image: url(./../images/transferOfPublicNum/info.png);
+        background-image: url(../images/WeChat/info.png);
         /*background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAWCAMAAADgvdz9AAAAA3NCSVQICAjb4U/gAAAAVFBMVEVUxM+d3eTw+vvX8fRtzda35uvm9vh80tr////C6u6r4ueS2eDv+fr4/f3f9PbP7/Kt4+iM19+l4ObF6++W2+G15upYxdC75+zv///e7/eF1d10z9jbe+W1AAAACXBIWXMAAAsSAAALEgHS3X78AAAAH3RFWHRTb2Z0d2FyZQBNYWNyb21lZGlhIEZpcmV3b3JrcyA4tWjSeAAAAKxJREFUKJGtkt0OwiAMRvmx2I1SBmya4Pu/p2CmAmY3ZucCLk4K7QdCnIAm06C2QSvsSIM2vZ4GTchBqkOtMAux/KsNmjW647sdfXHoB+042DeBSf5U8472OtplC72m5F/okoktC8Kt7dzEuRIBOdeMmGMXi9tBqPPxZTJttYqFeiguyUj/mJE6vQEAVw2AVszlgC6WD5wJU9nb4doHvVsaO2++A1G8rjKLE3gCNJkMQLZ2uB8AAAAASUVORK5CYII=)*/
 }
 
 #items>li>div>p.u {
         /*background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAWCAMAAADgvdz9AAAAA3NCSVQICAjb4U/gAAAAUVBMVEVlst2fzunu9/x0ueDI4/PX6/b6/f6MxeVrtN612e7l8fnV6fWCwOO73fCn0+xxt9+Rx+f////1+v3N5vTH4/J5u+Gs1ey13u/m9/ff7veWyuiLZ9g5AAAACXBIWXMAAAsSAAALEgHS3X78AAAAH3RFWHRTb2Z0d2FyZQBNYWNyb21lZGlhIEZpcmV3b3JrcyA4tWjSeAAAAKhJREFUKJGtkd0OwiAMhbGw0cE2KLgl+P4PaqVezJ+qF56EhOSDcs7BmH8prbXuScWBWBEV6qnrouBJsFNwFByU6V/wLnhRhs+CNwWb9uky11KIihabtRANffP2TIJpHy2baKX5F5qBZsu5bHf4xHMlGhELWccW5lM4QuyNRmPOkIr3eQM40p7pht2IriHC3aOoSiOU+dd8IoDHt9cgaryG5FuIWY//u65FJAqS5wuGtQAAAABJRU5ErkJggg==)*/
-        background-image: url(./../images/transferOfPublicNum/info.png);
+        background-image: url(../images/WeChat/info.png);
 }
 
 #items>li>div>p>a {
@@ -268,7 +270,7 @@
         display: inline-block;
         width: 28px;
         height: 28px;
-        background-image: url(./../images/transferOfPublicNum/people.png);
+        background-image: url(../images/WeChat/people.png);
         /*background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAANBAMAAABvB5JxAAAAA3NCSVQICAjb4U/gAAAALVBMVEX////tFEDtFEDtFEDtFEDtFEDtFEDtFEDtFEDtFEDtFEDtFEDtFEDtFEDtFEBqRrtdAAAAD3RSTlMAESIzVWZ3iJmqu8zd7v9cds+WAAAACXBIWXMAAAsSAAALEgHS3X78AAAAH3RFWHRTb2Z0d2FyZQBNYWNyb21lZGlhIEZpcmV3b3JrcyA4tWjSeAAAABZ0RVh0Q3JlYXRpb24gVGltZQAwNS8yNC8xNz44qBIAAABYSURBVAiZY2BgqFrOAAQ226sPMzAwnmBg6BFgYF/AwMDZwMBtwMDAfIBBWgEosZghCqRsOcNSEOXFsAMkWMOwFqTyFQM3kOI4wMC9LHNa1gYGxqoZnSsEAB6IE9uTLpXgAAAAAElFTkSuQmCC)*/
 }
 
