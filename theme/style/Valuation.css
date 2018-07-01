@@ -1,0 +1,236 @@
+.grey-bg {
+        background: #efe9e9;
+}
+
+#valuation {
+        margin: 0 auto;
+        background-repeat: no-repeat;
+        background-position: bottom center;
+        background-color: #efe9e9;
+        background-image: url(./../images/Valuation/Valuation-bg.jpg);
+        padding-bottom: 32px
+}
+
+#valuation>div {
+        width: 1200px;
+        margin: 0 auto
+}
+
+#valuation>div>div {
+        position: relative;
+        width: 800px;
+        margin: 0 auto 0 auto;
+        padding-top: 80px
+}
+
+#valuation>div>div>em {
+        display: block;
+        width: 800px;
+        height: 188px;
+        margin: 0 auto;
+        text-align: center;
+        border-radius: 22px 22px 0 0;
+        color: #0da3f9;
+}
+
+#valuation>div>div>em>s {
+        position: relative;
+        width: 58px;
+        height: 27px;
+        margin-top: -16px;
+        background-color: #f1e9e7;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAbBAMAAACZ0yIiAAAAA3NCSVQICAjb4U/gAAAAMFBMVEX///8No/gNo/gNo/gNo/gNo/gNo/gNo/gNo/gNo/gNo/gNo/gNo/gNo/gNo/gNo/hKg4whAAAAEHRSTlMAESIzRFVmd4iZqrvM3e7/dpUBFQAAAAlwSFlzAAAOdAAADnQBaySz1gAAAB90RVh0U29mdHdhcmUATWFjcm9tZWRpYSBGaXJld29ya3MgOLVo0ngAAAEnSURBVBiVRVC7SgNREJ3EPMS1CNiJSrCxDYKVr22tkloQxS/wA4RYWARBtk4hprJNfkAiVhbBbW2WJYiFKCwosprd5HjmXtcM3Dv3zD1z5iFCW7vF+KYimW1C7TULzCI9X9+4wouFuX7iqj/AmcEOTmy8+2389dd/XoP3DI4y3e5Q6QkvChREVjRh95OcWMSrSnlC7N0p0y3yLwfyfFVfHu706HxWjLR4/i3Q7ryOCGqs1A7TNnnNnsVzg8f3QcdiwxdH0w1f9ZwgHAeM9Knn0Zdal08tthmx4frHlH/BMz+aYrWimcqhkuw3zFTPOjzbKcEsYGniWmYTUFbe/zGb3EKIRF+LGB1XFk4Rl4F7u0m1pCaHSE3mXgg8cI5ChL+dr1aN345/AW5ReDCOlfMyAAAAAElFTkSuQmCC)
+}
+
+#valuation>div>div>em>p {
+        font-size: 30px;
+        height: 42px;
+        line-height: 42px
+}
+
+#valuation>div>div>em>i {
+        font-size: 18px;
+        height: 22px;
+        line-height: 22px
+}
+
+#valuation>div>div>div {
+        width: 800px;
+        background-color: #fff;
+        box-shadow: 2px 2px 8px #eaeaea;
+        padding: 32px 130px 28px 130px
+}
+
+#valuation>div>div>div>s {
+        display: block;
+        margin: 0 auto;
+        height: 42px;
+        line-height: 42px;
+        border-radius: 21px;
+        color: #069af1;
+        font-size: 24px
+}
+
+#valuation>div>div>div>s:before {
+        content: "";
+        display: inline-block;
+        width: 22px;
+        height: 22px;
+        margin-right: 8px;
+        vertical-align:  middle;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-image: url(./../images/Valuation/info-label.png);
+        /*background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAVBAMAAABWJ8jiAAAAA3NCSVQICAjb4U/gAAAAMFBMVEX///////////////////////////////////////////////////////////////9Or7hAAAAAEHRSTlMAESIzRFVmd4iZqrvM3e7/dpUBFQAAAAlwSFlzAAAK8AAACvABQqw0mAAAAB90RVh0U29mdHdhcmUATWFjcm9tZWRpYSBGaXJld29ya3MgOLVo0ngAAAAWdEVYdENyZWF0aW9uIFRpbWUAMDUvMjIvMTcbU/fOAAAAo0lEQVQImWNgEE4DAgMGAQYGpvP/////Y8C2nIFB97mLi4sjg/7/AIb6AAYgYBb7n8CwRwDEjJtQrcBwG8Rief8DKAJm2v7/KyAAZjLf//+YZQKYafv/nwP3BRATaPQ3BghT5z/QJAhzPlAQwmS6DxSEMFn/P2eAMlmWG8CYEABkQtzAwCCzAeoyBob4Aoh7XVzc3ypAfAEEh4AyYL+lJQswAABeUUgiUCjDNQAAAABJRU5ErkJggg==)*/
+}
+
+#valuation>div>div>div>ul {
+        margin-top: 28px
+}
+
+#valuation>div>div>div>ul>li {
+        width: 96px;
+        height: 38px;
+        line-height: 38px;
+        border: 1px solid #dfe7ea;
+        border-bottom: none;
+        text-align: center;
+        display: inline-block;
+        border-radius: 8px 8px 0 0;
+        font-size: 15px;
+        color: #555;
+        cursor: pointer
+}
+
+#valuation>div>div>div>ul>li:first-child {
+        width: 114px
+}
+
+#valuation>div>div>div>ul>li.u,#valuation>div>div>div>ul>li:hover {
+        border-color: #0da3f9;
+        background-color: #0da3f9;
+        color: #fff
+}
+
+#valuation>div>div>div>div {
+        border: 1px solid #dfe7ea;
+        padding: 0 20px
+}
+
+#valuation>div>div>div>div>em {
+        display: block;
+        height: 32px;
+        line-height: 32px;
+        margin: 16px 0;
+        font-size: 14px
+}
+
+#valuation>div>div>div>div>em>s {
+        width: 128px;
+        text-align: right;
+        padding-right: 10px
+}
+
+#valuation>div>div>div>div>em>i>u {
+        margin-right: 24px;
+        cursor: pointer
+}
+
+#valuation>div>div>div>div>em>i>u:before {
+        content: "";
+        display: inline-block;
+        width: 12px;
+        height: 32px;
+        margin-right: 5px;
+        vertical-align: top;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAMAAABhq6zVAAAAA3NCSVQICAjb4U/gAAAAS1BMVEX////FxcWsrKxra2sAAADFxcW4uLisrKwAAABAQEA5OTkzMzPFxcXFxcWsrKyZmZnFxcW9vb24uLiUlJTFxcXFxcW9vb3FxcXFxcV/0U5MAAAAGXRSTlMAERERESIiIiIzMzNVZmZmd3d3d8zd3e7/mctT6QAAAAlwSFlzAAAOdAAADnQBaySz1gAAAB90RVh0U29mdHdhcmUATWFjcm9tZWRpYSBGaXJld29ya3MgOLVo0ngAAABiSURBVAiZPY5LEoAwCENTrf9qq4LN/U8qZUbfKkAIAECRWqWgMQodmawQat62Wyk9TuoyG+vDywZ5jo1MAbnG2HZ70orFNTpWsx2ukcxWqF3TQbl7dAohWbS1hu/o4O7/nRco0gbfQlE0jwAAAABJRU5ErkJggg==)
+}
+
+#valuation>div>div>div>div>em>i>u.u:before {
+        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAMAAABhq6zVAAAAA3NCSVQICAjb4U/gAAAAnFBMVEX///8hbprFxcW4uLisrKzFxcXFxcW9vb24uLjFxcVnuupUs+lKrucln+Ujl9khgLUheashbpqxwsuuwMukvMqmusaktb7FxcVYvvhLuPg0svkXp/gLiM4KeLcJa6MIY5fFxcVYvvhRvfpMu/pCt/o0svkusPkhq/kXp/gOo/gNnvAMluQLjdYKgsUKfb4KeLcJcq0Ja6MIaZ8IY5cytK03AAAANHRSTlMAESIiImZ3d3fMzMzMzMzMzMzd3d3d3e7u7u7u7u7u7v//////////////////////////PnK2CgAAAAlwSFlzAAAOdAAADnQBaySz1gAAAB90RVh0U29mdHdhcmUATWFjcm9tZWRpYSBGaXJld29ya3MgOLVo0ngAAAB6SURBVAiZPU7bEsFAFItiOe6X1S0tDa1V9+L//83ZzpCnZJJJAgBGnBODgLawgXRUCBeDZD2ylBZ6XCb7Q+lTy74aw6IofXWZUEBujv50vt4yUkVaKb0/t3QaGwdav2YaM7TZo35/8pjdUL2a7vJ5rAYQ/Uaj5sP/zhfPRgy2eTzJ3wAAAABJRU5ErkJggg==)
+}
+
+#valuation>div>div>div>div>em>i>input {
+        height: 32px;
+        width: 360px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        padding: 0 10px
+}
+
+#valuation>div>div>div>div>em>i>b {
+        padding-left: 16px;
+        margin-right: 20px;
+        background-repeat: no-repeat;
+        background-position: left center
+}
+
+#valuation>div>div>div>div>em>i>b:nth-child(1) {
+        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAMCAYAAAC5tzfZAAAA3UlEQVQoU6WSwQ3CMAxFvyN1ABgBzr3EZAMYoYwAI8AIMAKswAiwQfp76RlGgAGqNqgIUKiKOGApUuLk+dtfEUThnBvVdb0TkRGAdl0ArEke4ncSH6y1CxHZxbl2b4wZe+/bAo/4gFR1A2DVhQDMY7X/IWvtUUSmPUpbkuve9r7NFEKYFEXBXqhNdtVEZJ/n+fKre68LVc0BKACSnHTbfRuRpukgSZIMQNaZiyGEfVVVh7Isb2/LnXPTpmmOPQZ8pIwxM+/96aGkqufnD/jFXUiOX9AVwOAXAeBGcngHcEVODQuRuKEAAAAASUVORK5CYII=)
+}
+
+#valuation>div>div>div>div>em>i>b:nth-child(2) {
+        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAMCAYAAAC5tzfZAAAAoElEQVQoU5WSbRGCQBCGn4ugEaiAESSCRNAIEEEjSASNABWIYAWtwLwMx+ydBwz762Z3n/149xz/dgYuQA78gAZ42zQXMRVwTxQqLWihA/BNAHKp49HHLKSRXguQ3AXQ6WGhK/BcgW7TfrugGnjEnaRau3c85X+ALAH2wCklhPfFsgdyx+PpmFJQkDV7YHUMhNA+2mvJ9DOk4AxtAb7QCA7UshsNpoRfEAAAAABJRU5ErkJggg)
+}
+
+#valuation>div>div>div>div>em>i>b>input {
+        width: 60px;
+        font-size: 12px;
+        height: 18px;
+        line-height: 18px;
+        margin: 7px 0 0 4px
+}
+
+#valuation>div>div>div>div>em>i>input.mb {
+        width: 152px;
+        margin-right: 20px
+}
+
+#valuation>div>div>div>div>em>i>input.co {
+        width: 100px;
+        border-radius: 4px 0 0 4px;
+        border-right: 0;
+        border-color: #0da3f9
+}
+
+#valuation>div>div>div>div>em>i>s {
+        height: 32px;
+        width: 88px;
+        font-size: 12px;
+        background-color: #bfbfbf;
+        color: #fff;
+        border-radius: 0 4px 4px 0;
+        text-align: center;
+        cursor: default
+}
+
+#valuation>div>div>div>div>em>i>s.u {
+        background-color: #0da3f9;
+        cursor: pointer
+}
+
+#valuation>div>div>div>div>em>i>s.u:hover {
+        line-height: 30px
+}
+
+#valuation>div>div>div>b {
+        display: block;
+        width: 106px;
+        height: 38px;
+        line-height: 38px;
+        text-align: center;
+        background-color: #0da3f9;
+        color: #fff;
+        margin: 20px 12px 0 auto;
+        font-size: 15px;
+        border-radius: 5px;
+        cursor: pointer
+}
+
+#valuation>div>div>div>b:hover {
+        line-height: 36px
+}
