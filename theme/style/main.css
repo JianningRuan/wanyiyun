@@ -668,11 +668,21 @@ select::-ms-expand {
         font-size: 14px;
         color: #999
 }
-
+#location>a {
+        font-size: 16px;
+        color: #030303;
+}
 #location>a:hover {
         color: #999;
         margin-top: -1px;
         cursor: pointer
+}
+#location>.location-label {
+        width: 4px;
+        height: 18px;
+        background: #ed1c24;
+        display: inline-block;
+        vertical-align: middle;
 }
 
 #location>s {
