@@ -1,0 +1,148 @@
+#sell {
+        margin: 0 auto;
+        background-repeat: no-repeat;
+        background-position: top center;
+        background-color: #fafeff;
+        background-image: url(./../images/Sell/sell-bg.jpg);
+        height: 685px;
+}
+
+#sell>div {
+        width: 1200px;
+        margin: 0 auto;
+        overflow: hidden;
+}
+
+#sell>div>div {
+        width: 490px;
+        padding: 50px;
+        background: #fff;
+        box-shadow: 3px -3px 6px 0 #f6f9fa;
+        margin: 62px 100px 0 auto;
+        border: 1px solid #e3f4fe;
+        border-radius: 22px;
+}
+
+#sell>div>div>em {
+        display: block;
+        height: 52px;
+        line-height: 52px;
+        text-align: center;
+        background-color: #0da3f9;
+        color: #fff;
+        font-size: 22px
+}
+
+#sell>div>div>em>s {
+        padding-left: 28px;
+        background-repeat: no-repeat;
+        background-position: left center;
+        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAWBAMAAAAyb6E1AAAAA3NCSVQICAjb4U/gAAAALVBMVEX///////////////////////////////////////////////////////////+g0jAFAAAAD3RSTlMAESIzRFV3iJmqu8zd7v+wyu2mAAAACXBIWXMAAAsSAAALEgHS3X78AAAAH3RFWHRTb2Z0d2FyZQBNYWNyb21lZGlhIEZpcmV3b3JrcyA4tWjSeAAAABZ0RVh0Q3JlYXRpb24gVGltZQAwNi8wMi8xN1B7vjMAAABzSURBVAiZY5B8BwUTGXqnl4NB5Q2GFwxQ0MfwDMbMQ2WahgJBMJi59i4Q3AIzVVyAwAldrZASECiiqw1LA4JUdLXoTGYXmBsY1959B2WyP3M5DWVyL+BcCGM2zBGAOp2r4yAD0EMdQNB7W4GBAerNywwMAPWpR50lbjepAAAAAElFTkSuQmCC)
+}
+
+#sell>div>div>ul {
+        padding: 10px 20px;
+        background-color: #fff;
+        border: 1px solid #0da3f9;
+        font-size: 0;
+}
+
+#sell>div>div>ul>li {
+        min-height: 38px;
+        margin: 18px 0
+}
+
+#sell>div>div>ul>li>p {
+        height: 38px;
+        line-height: 36px;
+        font-size: 15px;
+        border: 1px solid #e2e2e2;
+        border-radius: 4px
+}
+
+#sell>div>div>ul>li>p>s {
+        width: 88px;
+        padding-left: 12px
+}
+
+#sell>div>div>ul>li>p>input {
+        height: 36px;
+        line-height: 36px;
+        border: 0;
+        width: 258px;
+        font-size: 14px
+}
+
+#sell>div>div>ul>li>p>input.u {
+        width: 158px
+}
+
+#sell>div>div>ul>li>p>b {
+        font-size: 13px;
+        background-color: #bfbfbf;
+        color: #fff;
+        height: 28px;
+        line-height: 30px;
+        margin-top: 4px;
+        width: 98px;
+        border-radius: 4px;
+        text-align: center;
+        cursor: default
+}
+
+#sell>div>div>ul>li>p>b.u {
+        background-color: #0da3f9;
+        cursor: pointer
+}
+
+#sell>div>div>ul>li>p>b.u:hover {
+        line-height: 28px
+}
+
+#sell>div>div>ul>b {
+        height: 34px;
+        line-height: 34px;
+        background-color: #0da3f9;
+        color: #fff;
+        border: 1px solid #0da3f9;
+        border-radius: 4px;
+        width: 162px;
+        text-align: center;
+        font-size: 14px;
+        margin: -2px 0 8px 0;
+        cursor: pointer
+}
+
+#sell>div>div>ul>b:last-child {
+        margin-left: 22px;
+        background-color: #e5f6fe;
+        color: #0da3f9
+}
+
+#sell>div>div>ul>b:hover {
+        line-height: 32px
+}
+
+#sell>div>div>ul>li>p>select {
+        height: 36px;
+        line-height: 36px;
+        border: 0;
+        width: 264px;
+        font-size: 14px;
+        padding-left: 14px;
+        margin-left: -10px;
+        color: #bbb;
+        background-position-x: 240px
+}
+
+#sell>div>div>ul>li>p>select>option {
+        width: 200px
+}
+
+#sell>div>div>ul>li>p>select>option:nth-child(1) {
+        color: #bbb
+}
+
+#sell>div>div>ul>li>p>select>option:nth-child(n+2) {
+        color: #282828
+}
