@@ -221,7 +221,7 @@ body { color: #333; background: #fff;}
 .box6 { min-height: 570px; background: url(./../images/tab6.jpg) top center no-repeat;}
 .box7 { min-height: 640px; background: url(./../images/tab7.jpg) top center no-repeat;}
 .box-cont { width: 1274px; margin: 0 auto;}
-.box-cont .box-list { width: 770px; margin-left: 0; margin-right: 0;}
+.box-cont .box-list { width: 730px; margin-left: 0; margin-right: 0;}
 .box-slide { padding-top: 30px;}
 .box5 .box-cont .box-list { margin-left: 40px;}
 .box-slide .box-item { margin-bottom: 15px;}
