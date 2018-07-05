@@ -296,7 +296,7 @@ var be = {
                 });
                 $('#header_menu>div>div:nth-child(2),#header_menu>div>div:nth-child(3)').remove();
                 $('#header_menu>div').append('<div style="padding:1px;text-align:center"><img src="/images/j3bujb55.jpg" style="width:173px"></div>');
-                $('body').append('<div id="online"><s></s><div><s></s><p>专业1对1</p><div><ul></ul></div><p class="u">收起 ></p><div></div></div></div>');
+                $('body').append('<div id="online"><s></s><div><s></s><div><ul></ul></div></div></div>');
                 $.each(online, function() {
                         $('#online>div>div>ul').append('<li>' + be.strDeH(this[0]) + '</li>');
                         var a = be.strDeT(this[1]);
@@ -312,9 +312,9 @@ var be = {
                                 right: 0
                         })
                 });
-                $('#online>div>p.u').click(function() {
+                $('#online>div>s').click(function() {
                         $('#online').animate({
-                                right: "-190px"
+                                right: "-120px"
                         }, function() {
                                 $('#online>div').hide();
                                 $('#online>s').show()
