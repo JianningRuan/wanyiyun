@@ -179,7 +179,7 @@ var be = {
         },
         init: function() {
                 $('#header>div>div').eq(0).append('<p><s><a class="link">联系客服</a></s><s><a>服务热线：</a><i>' + fwrx + '</i></s></p>');
-                $('#header>div>div').eq(1).append('<div><em><select><option value="0">微信公众号</option><option value="2">今日头条号</option><option value="3">百家号</option></select><input placeholder="输入您需求的关键词，如“订阅号”"><b></b></em><ul></ul></div><s><img src="/images/' + yqtp + '"></s>');
+                $('#header>div>div').eq(1).append('<div><em><select><option value="0">微信公众号</option><option value="2">今日头条号</option><option value="3">百家号</option></select><input placeholder="输入您需求的关键词，如“订阅号”"><b></b></em><ul></ul></div><s><img src="./../theme/images/' + yqtp + '"></s>');
                 $('#header_nav>div>em').append('<div id="header_menu"><div><div><p>微信公众号转让</p><ul></ul><div></div></div><div><p>粉丝定制</p><ul class="u"></ul></div><div><p>新媒体融资</p><ul class="u"><li><a class="link">创业者服务</a></li><li><a class="link">投资人服务</a></li></ul></div><div><p>其它帐号转让</p><ul><li><a class="link">今日头条</a></li><li><a class="link">百家号</a></li></ul><div></div></div><div><p>帐号估值</p><ul><li><a class="link">订阅号</a></li><li><a class="link">服务号</a></li></ul></div></div></div>推荐服务');
                 $('body').append('<input type="file" id="uploadphoto" accept="image/png,image/jpeg,image/gif" style="display:none"><div id="alert"><div><s></s><p><i><b>取消</b></i><i><b>确定</b></i></p></div></div><div id="prompt"><div></div></div><div id="tranBg"><div><s></s></div></div>');
                 $('#header>div:last-child>div>img').click(function() {
@@ -295,7 +295,7 @@ var be = {
                         }
                 });
                 $('#header_menu>div>div:nth-child(2),#header_menu>div>div:nth-child(3)').remove();
-                $('#header_menu>div').append('<div style="padding:1px;text-align:center"><img src="/images/j3bujb55.jpg" style="width:173px"></div>');
+                $('#header_menu>div').append('<div style="padding:1px;text-align:center"><img src="./../theme/images/j3bujb55.jpg" style="width:173px"></div>');
                 $('body').append('<div id="online"><s></s><div><s></s><div><ul></ul></div></div></div>');
                 $.each(online, function() {
                         $('#online>div>div>ul').append('<li>' + be.strDeH(this[0]) + '</li>');
