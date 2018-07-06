@@ -156,7 +156,7 @@ a.link:hover,a.link:active {
 }
 
 #header>div:last-child li>a:hover {
-        margin-top: -1px
+        /*margin-top: -1px*/
 }
 
 #header>div:last-child li:last-child {
