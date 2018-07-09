@@ -81,8 +81,8 @@
     <div class="swiper-pagination"></div>
 
     <!-- 如果需要导航按钮 -->
-    <div class="swiper-button-prev"></div>
-    <div class="swiper-button-next"></div>
+    <div id="banner-prev" class="swiper-button-prev"></div>
+    <div id="banner-next" class="swiper-button-next"></div>
 </div>
 
 <div class="wrapper mb-20">
@@ -113,8 +113,8 @@
                         </div>
                     </div>
                     <!-- 如果需要导航按钮 -->
-                    <div class="swiper-button-prev notice-prev"></div>
-                    <div class="swiper-button-next notice-next"></div>
+                    <div id="notice-prev" class="swiper-button-prev notice-prev"></div>
+                    <div id="notice-next" class="swiper-button-next notice-next"></div>
                 </div>
             </div>
             <div class="clear"></div>
@@ -1582,6 +1582,13 @@
     </div>
     <p>公司地址：广东省广州市天河区宦溪南边街2号二楼231A房<br />Copyright &copy; 2012 - 2017 <span>广州市万易云文化传播有限公司</span> <a href="http://www.miitbeian.gov.cn" target="_blank">粤ICP备16104194号-1</a></p>
 </div>
+
+<div style="width:300px;margin:0 auto;padding:20px 0;">
+    <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44010602004640" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;">
+        <img src="./../theme/images/ghs.png" style="float:left;">
+        <p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px;color:#939393;">粤公网安备 44010602004640号</p>
+    </a>
+</div>
 </body>
 <script src="https://code.jquery.com/jquery-1.12.4.js" integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU=" crossorigin="anonymous"></script>
 <script src="./../js/jquery.iscroll.js"></script>
@@ -1602,8 +1609,8 @@
 
                     // 如果需要前进后退按钮
                     navigation: {
-                            nextEl: '.swiper-button-next',
-                            prevEl: '.swiper-button-prev'
+                            nextEl: '#banner-next',
+                            prevEl: '#banner-prev'
                     }
             });
             var notice = new Swiper ('#notice', {
@@ -1612,8 +1619,8 @@
                     loop: true,
                     // 如果需要前进后退按钮
                     navigation: {
-                            nextEl: '.swiper-button-next',
-                            prevEl: '.swiper-button-prev'
+                            nextEl: '#notice-next',
+                            prevEl: '#notice-prev'
                     }
             });
             var today = new Swiper ('#today', {
