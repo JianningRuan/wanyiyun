@@ -267,12 +267,12 @@ body { color: #333; background: #fff;}
 .info-tab-cont .info-box .info-box-item .info-cont .opa span em { margin-right: 4px;}
 
 
-.float-nav { width: 115px; background: #fff; border-radius: 10px; overflow: hidden; position: fixed; left: 10px; top: 50%; margin-top: -217px; z-index: 30;}
+.float-nav { width: 115px; background: #fff; border-radius: 10px; overflow: hidden; position: fixed; left: 10px; top: 50%; margin-top: -287px; z-index: 30;}
 .float-nav.none { display: none;}
 .float-nav .s-logo { width: 115px; padding-top: 10px;}
 .float-nav .s-logo img { display: block;}
 .float-nav .f-nav { width: 104px; margin: 20px auto 20px auto;}
-.float-nav .f-nav a { background: #249bee; color: #fff; border-radius: 4px; display: block; width: 104px; height: 30px; line-height: 30px; text-align: center; font-size: 16px; margin-top: 12px; margin-bottom: 12px;}
+.float-nav .f-nav a { background: #249bee; color: #fff; border-radius: 4px; display: block; width: 104px; height: 30px; line-height: 30px; text-align: center; font-size: 16px; margin-top: 22px; margin-bottom: 22px;}
 .float-nav .f-nav a.current { background: #249bee; color: #fff; border-radius: 4px;}
 .float-nav .f-nav a .icon { width: 23px; height: 23px; margin-right: 4px; margin-bottom: 2px; display: inline-block; vertical-align: middle;}
 .float-nav .f-nav a .icon1 { background: url(./../images/n-icon1.png) 0 0 no-repeat;}
