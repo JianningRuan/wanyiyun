@@ -886,12 +886,12 @@ select::-ms-expand {
 
 #online>s {
         position: absolute;
-        left: -63px;
+        left: -55px;
         top: 0;
         bottom: 0;
         margin: auto;
-        width: 63px;
-        height: 250px;
+        width: 55px;
+        height: 248px;
         cursor: pointer;
         z-index: 1;
         background-image: url(./../images/server-left.png);

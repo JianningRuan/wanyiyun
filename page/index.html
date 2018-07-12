@@ -1517,13 +1517,13 @@
         <img src="./../theme/images/s-logo.jpg" />
     </div>
     <div class="f-nav" id="f-nav">
-        <a class="current" href="#box1">搞笑段子</a>
-        <a href="#box2">生活时事</a>
-        <a href="#box3">感情生活</a>
-        <a href="#box4">汽车速递</a>
-        <a href="#box5">民生概况</a>
-        <a href="#box6">娱乐大众</a>
-        <a href="#box7">时尚生活</a>
+        <a class="current" href="#box1"><span class="icon icon1"></span>母婴亲子</a>
+        <a href="#box2"><span class="icon icon2"></span>情感鸡汤</a>
+        <a href="#box3"><span class="icon icon3"></span>时尚穿搭</a>
+        <a href="#box4"><span class="icon icon4"></span>本地生活</a>
+        <a href="#box5"><span class="icon icon5"></span>影视视频</a>
+        <a href="#box6"><span class="icon icon6"></span>垂直行业</a>
+        <a href="#box7"><span class="icon icon7"></span>新闻时事</a>
         <a>更多</a>
     </div>
 </div>
@@ -1704,8 +1704,10 @@
             var floatNav = $('#float-nav');
             var nav = $('#f-nav').children();
             var boxArr = [];
+            var winHeight = $(window).height();
+            console.log('w',winHeight);
             for (var k = 1, l = 7; k <= l; k++){
-                    var boxNum = $('#box' + k).offset().top;
+                    var boxNum = $('#box' + k).offset().top - (winHeight/2);
                     boxArr.push(boxNum);
             }
             console.log(boxArr);

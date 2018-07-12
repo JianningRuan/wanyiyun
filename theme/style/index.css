@@ -179,7 +179,7 @@ body { color: #333; background: #fff;}
 .msg-wrapper { width: 1156px; margin-left: auto; margin-right: auto;}
 .msg-wrapper .msg-box { width: 374px; height: 466px; position: relative; background: #fff; box-shadow: 3px 3px 6px 3px #f0f0f0; margin-right: 10px;}
 .msg-wrapper .msg-box:last-child{ margin-right: 0;}
-.msg-wrapper .msg-box .msg-tit { overflow: hidden; width: 110px; height: 110px; padding-top: 20px; border-radius: 50%; background: #0486de; box-shadow: 3px 0 6px 6px #0371bc inset; position: absolute; top: -55px; left: 50%; margin-left: -55px; text-align: center; font-size: 26px; color: #fff; line-height: 30px;}
+.msg-wrapper .msg-box .msg-tit { overflow: hidden; width: 110px; height: 110px; padding-top: 20px; border-radius: 50%; background: #0da3f9; box-shadow: 3px 0 6px 0 #0c92df inset; position: absolute; top: -55px; left: 50%; margin-left: -55px; text-align: center; font-size: 26px; color: #fff; line-height: 30px;}
 .msg-wrapper .msg-box .msg-tit span {}
 .msg-wrapper .msg-box .msg-cont { padding-top: 70px;}
 
@@ -237,9 +237,9 @@ body { color: #333; background: #fff;}
 .box-slide .box-item .info-pic img { width: 100%; height: 100%; border-radius: 50%;}
 .more-wrapper { width: 408px; height: 570px;}
 .more-wrapper .more-box { text-align: center; margin-top: 510px;}
-.more-wrapper .more-box .more-btn { margin-left: 2px; margin-right: 2px; width: 62px; height: 20px; background: #239ced; line-height: 20px; text-align: center; color: #fff; font-size: 12px;}
-.more-wrapper .more-box .box-prev { margin-left: 2px; margin-right: 2px; display: inline-block; width: 20px; height: 20px; border: 1px solid #229cf1; color: #229cf1; line-height: 18px; text-align: center; font-size: 12px; font-family: '宋体';}
-.more-wrapper .more-box .box-next { margin-left: 2px; margin-right: 2px; display: inline-block; width: 20px; height: 20px; border: 1px solid #229cf1; color: #229cf1; line-height: 18px; text-align: center; font-size: 12px; font-family: '宋体';}
+.more-wrapper .more-box .more-btn { margin-left: 2px; margin-right: 2px; width: 62px; height: 20px; background: #249bee; line-height: 20px; text-align: center; color: #fff; font-size: 12px;}
+.more-wrapper .more-box .box-prev { margin-left: 2px; margin-right: 2px; display: inline-block; width: 20px; height: 20px; border: 1px solid #249bee; color: #249bee; line-height: 18px; text-align: center; font-size: 12px; font-family: '宋体';}
+.more-wrapper .more-box .box-next { margin-left: 2px; margin-right: 2px; display: inline-block; width: 20px; height: 20px; border: 1px solid #249bee; color: #249bee; line-height: 18px; text-align: center; font-size: 12px; font-family: '宋体';}
 
 .info-tab-wrapper { width: 100%; height: 48px; border-bottom: 1px solid #7abeed; background: #fff; }
 .info-tab-wrapper .info-tab { width: 464px; height: 48px; margin: 0 auto;}
@@ -271,6 +271,14 @@ body { color: #333; background: #fff;}
 .float-nav.none { display: none;}
 .float-nav .s-logo { width: 115px; padding-top: 10px;}
 .float-nav .s-logo img { display: block;}
-.float-nav .f-nav { width: 95px; margin: 20px auto 20px auto;}
-.float-nav .f-nav a { display: block; width: 95px; height: 30px; line-height: 30px; text-align: center; font-size: 14px; color: #333; margin-top: 5px; margin-bottom: 5px;}
-.float-nav .f-nav a.current { background: #1098cc; color: #fff; border-radius: 4px;}
+.float-nav .f-nav { width: 104px; margin: 20px auto 20px auto;}
+.float-nav .f-nav a { background: #249bee; color: #fff; border-radius: 4px; display: block; width: 104px; height: 30px; line-height: 30px; text-align: center; font-size: 16px; margin-top: 12px; margin-bottom: 12px;}
+.float-nav .f-nav a.current { background: #249bee; color: #fff; border-radius: 4px;}
+.float-nav .f-nav a .icon { width: 23px; height: 23px; margin-right: 4px; margin-bottom: 2px; display: inline-block; vertical-align: middle;}
+.float-nav .f-nav a .icon1 { background: url(./../images/n-icon1.png) 0 0 no-repeat;}
+.float-nav .f-nav a .icon2 { background: url(./../images/n-icon2.png) 0 0 no-repeat;}
+.float-nav .f-nav a .icon3 { background: url(./../images/n-icon3.png) 0 0 no-repeat;}
+.float-nav .f-nav a .icon4 { background: url(./../images/n-icon4.png) 0 0 no-repeat;}
+.float-nav .f-nav a .icon5 { background: url(./../images/n-icon5.png) 0 0 no-repeat;}
+.float-nav .f-nav a .icon6 { background: url(./../images/n-icon6.png) 0 0 no-repeat;}
+.float-nav .f-nav a .icon7 { background: url(./../images/n-icon7.png) 0 0 no-repeat;}
