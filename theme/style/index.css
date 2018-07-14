@@ -259,6 +259,7 @@ body { color: #333; background: #fff;}
 .info-tab-cont .info-box .info-box-item .info-pic { background: #fff; width: 130px; height: 130px; border-radius: 50%; border: 5px solid #fff; overflow: hidden; margin-right: 50px; box-shadow: 8px 0 16px 0 #2b9be5;}
 .info-tab-cont .info-box .info-box-item .info-pic img { width: 100%; height: 100%;}
 .info-tab-cont .info-box .info-box-item .info-cont { background: #fff; border-radius: 10px;}
+.info-tab-cont .info-box .info-box-item .info-cont .info-tit { width: 100%;}
 .info-tab-cont .info-box .info-box-item .info-cont .tit { height: 30px; line-height: 30px; font-size: 16px; font-weight: bold; color: #333;}
 .info-tab-cont .info-box .info-box-item .info-cont .tit span { width: 8px; height: 8px; display: inline-block; vertical-align: middle; background: #2b9be5;}
 .info-tab-cont .info-box .info-box-item .info-cont .cont { font-size: 14px; color: #666; line-height: 22px;}
