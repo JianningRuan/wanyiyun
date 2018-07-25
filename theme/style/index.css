@@ -186,10 +186,13 @@ body { color: #333; background: #fff;}
 .great-info {}
 .great-info .great-label { width: 180px; height: 28px; background: #fd3a38; text-align: center; line-height: 28px; border-radius: 14px; margin: 0 auto 0 auto; color: #fff; font-size: 14px;}
 .great-info .msg-list { width: 268px; margin: 0 auto 0 auto;}
-.great-info .msg-list li { box-sizing: content-box; height: 26px; line-height: 26px; font-size: 14px; color: #4a4a4a; padding-top: 8px; padding-bottom: 8px;}
-.great-info .msg-list li a { color: #4a4a4a;}
+.great-info .msg-list li { width: 100%; box-sizing: content-box; height: 26px; line-height: 26px; font-size: 14px; color: #4a4a4a; padding-top: 8px; padding-bottom: 8px;}
+.great-info .msg-list li a { width: 240px; display: block;  color: #4a4a4a;}
 .great-info .msg-list li span { font-size: 24px; margin-right: 10px; display: inline-block; color: #ff4632; transform: rotate(-45deg);}
-.great-info .great-pic { width: 275px; height: 50px; margin: 30px auto 0 auto;}
+.great-info .great-pic { width: 275px; height: 50px; margin: 10px auto 0 auto;}
+
+#great { margin-left: 40px; margin-right: 40px; padding-bottom: 40px;}
+#great .swiper-pagination { bottom: -2px;}
 
 .today-info {}
 .today-info-wrapper { width: 325px; height: 390px;}

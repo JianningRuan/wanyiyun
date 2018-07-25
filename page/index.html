@@ -125,14 +125,35 @@
                 <div class="msg-tit">优品<br/>推荐</div>
                 <div class="msg-cont great-info">
                     <div class="great-label">新媒体精品推荐</div>
-                    <ul class="msg-list">
+                    <div id="great" class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide msg-list">
+                                <li class="ellipsis"><span class="iconfont icon-msg fl"></span><a class="ellipsis fl">1.2d个饿哥哥发挥很好合伙人纷纷为其发放父亲违反</a></li>
+                                <li class="ellipsis"><span class="iconfont icon-msg fl"></span><a class="ellipsis fl">1.2d个饿哥哥发挥很好合伙人纷纷为其发放父亲违反</a></li>
+                                <li class="ellipsis"><span class="iconfont icon-msg fl"></span><a class="ellipsis fl">1.2d个饿哥哥发挥很好合伙人纷纷为其发放父亲违反</a></li>
+                                <li class="ellipsis"><span class="iconfont icon-msg fl"></span><a class="ellipsis fl">1.2d个饿哥哥发挥很好合伙人纷纷为其发放父亲违反</a></li>
+                                <li class="ellipsis"><span class="iconfont icon-msg fl"></span><a class="ellipsis fl">1.2d个饿哥哥发挥很好合伙人纷纷为其发放父亲违反</a></li>
+                                <li class="ellipsis"><span class="iconfont icon-msg fl"></span><a class="ellipsis fl">1.2d个饿哥哥发挥很好合伙人纷纷为其发放父亲违反</a></li>
+                            </div>
+                            <div class="swiper-slide msg-list">
+                                <li class="ellipsis"><span class="iconfont icon-msg fl"></span><a class="ellipsis fl">1.2d个饿哥哥发挥很好合伙人纷纷为其发放父亲违反</a></li>
+                                <li class="ellipsis"><span class="iconfont icon-msg fl"></span><a class="ellipsis fl">1.2d个饿哥哥发挥很好合伙人纷纷为其发放父亲违反</a></li>
+                                <li class="ellipsis"><span class="iconfont icon-msg fl"></span><a class="ellipsis fl">1.2d个饿哥哥发挥很好合伙人纷纷为其发放父亲违反</a></li>
+                                <li class="ellipsis"><span class="iconfont icon-msg fl"></span><a class="ellipsis fl">1.2d个饿哥哥发挥很好合伙人纷纷为其发放父亲违反</a></li>
+                                <li class="ellipsis"><span class="iconfont icon-msg fl"></span><a class="ellipsis fl">1.2d个饿哥哥发挥很好合伙人纷纷为其发放父亲违反</a></li>
+                                <li class="ellipsis"><span class="iconfont icon-msg fl"></span><a class="ellipsis fl">1.2d个饿哥哥发挥很好合伙人纷纷为其发放父亲违反</a></li>
+                            </div>
+                        </div>
+                        <div id="great-pagination" class="swiper-pagination red-pagination"></div>
+                    </div>
+                    <!--<ul class="msg-list">
                         <li class="ellipsis"><span class="iconfont icon-msg"></span><a>1.2d个饿哥哥发挥很好合伙人</a></li>
                         <li class="ellipsis"><span class="iconfont icon-msg"></span><a>1.2d个饿哥哥发挥很好合伙人</a></li>
                         <li class="ellipsis"><span class="iconfont icon-msg"></span><a>1.2d个饿哥哥发挥很好合伙人</a></li>
                         <li class="ellipsis"><span class="iconfont icon-msg"></span><a>1.2d个饿哥哥发挥很好合伙人</a></li>
                         <li class="ellipsis"><span class="iconfont icon-msg"></span><a>1.2d个饿哥哥发挥很好合伙人</a></li>
                         <li class="ellipsis"><span class="iconfont icon-msg"></span><a>1.2d个饿哥哥发挥很好合伙人</a></li>
-                    </ul>
+                    </ul>-->
                     <div class="great-pic"><img src="./../theme/images/msg-pic2.jpg"/></div>
                 </div>
             </div>
@@ -1629,6 +1650,14 @@
                             prevEl: '#notice-prev'
                     }
             });
+            var great = new Swiper('#great', {
+                    loop: true,
+                    // 如果需要分页器
+                    pagination: {
+                            el: '#great-pagination'
+                    }
+            });
+
             var today = new Swiper ('#today', {
                     loop: true,
                     // 如果需要分页器
