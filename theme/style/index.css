@@ -184,7 +184,7 @@ body { color: #333; background: #fff;}
 .msg-wrapper .msg-box .msg-cont { padding-top: 70px;}
 
 .great-info {}
-.great-info .great-label { width: 180px; height: 28px; background: #fd3a38; text-align: center; line-height: 28px; border-radius: 14px; margin: 0 auto 0 auto; color: #fff; font-size: 14px;}
+.great-info .great-label { font-weight: bold; width: 180px; height: 28px; background: #fd3a38; text-align: center; line-height: 28px; border-radius: 14px; margin: 0 auto 0 auto; color: #fff; font-size: 18px;}
 .great-info .msg-list { width: 268px; margin: 0 auto 0 auto;}
 .great-info .msg-list li { width: 100%; box-sizing: content-box; height: 26px; line-height: 26px; font-size: 14px; color: #4a4a4a; padding-top: 8px; padding-bottom: 8px;}
 .great-info .msg-list li a { width: 240px; display: block;  color: #4a4a4a;}
@@ -209,8 +209,8 @@ body { color: #333; background: #fff;}
 .hot-box {}
 .hot-box .hot-list { width: 325px; height: 390px;}
 .hot-box .hot-list .hot-item { width: 50%; height: 184px;}
-.hot-box .hot-list .hot-item .hot-code {width: 102px; height: 102px; margin: 0 auto 0 auto;}
-.hot-box .hot-list .hot-item .hot-code img { width: 102px; height: 102px;}
+.hot-box .hot-list .hot-item .hot-code {width: 102px; height: 102px; margin: 0 auto 0 auto; border-radius: 4px; overflow: hidden;}
+.hot-box .hot-list .hot-item .hot-code img { width: 102px; height: 102px; border-radius: 4px;}
 .hot-box .hot-list .hot-item .hot-tit { width: 130px; margin: 0 auto; text-align: center; line-height: 20px; color: #333; font-size: 14px;}
 .hot-box .hot-list .hot-item .hot-money { text-align: center; font-size: 14px; color: #ff4632;}
 
